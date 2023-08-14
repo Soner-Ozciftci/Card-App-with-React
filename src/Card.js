@@ -10,6 +10,7 @@ export default function Card(props) {
           <h2 className="cardTitle">{props.title}</h2>
           <p className="cardDescription">{props.description}</p>
         </div>
+        <button>see The Details</button>
       </div>
     </div>
   );
